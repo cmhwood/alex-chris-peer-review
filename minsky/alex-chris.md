@@ -8,7 +8,7 @@ Way to go above and beyond on this one. Nice creativity.
 | --- | :---: |
 | Multi page form with client side routing and navigation (next button) | yes |
 | Data stored in Redux when navigating from page to page | yes |
-| User is notified when trying to leave a blank score | yes/no | No, but you are not able to move to the next page without answering.
+| User is notified when trying to leave a blank score | yes/no No, but you are not able to move to the next page without answering.
 | Review Component displays scores and comments from current redux state | yes |
 | Submit button sends data to the server via Axios | yes |
 | Confirmation Page displays after data is POSTed to the server | yes |
