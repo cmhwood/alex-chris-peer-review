@@ -12,7 +12,7 @@ Way to go above and beyond on this one. Nice creativity.
 | Review Component displays scores and comments from current redux state | yes |
 | Submit button sends data to the server via Axios | yes |
 | Confirmation Page displays after data is POSTed to the server | yes |
-| Button on Confirmation Page starts a new survey | no | But it does got to a home page
+| Button on Confirmation Page starts a new survey | no  But it does got to a home page
 | Views are broken down into components | yes |
 
 ---
@@ -24,7 +24,7 @@ Notes on the above Functional Requirements.
 | General Items | Complete? |
 | --- | :---: |
 | More than 15 git commits | no |
-| Commits are descriptive of the changes made or feature added | yes/no | Not exactly
+| Commits are descriptive of the changes made or feature added | yes/no Not exactly
 | Readme file updated | no |
 | Appropriate amount of code comments | yes |
 | Code is consistently formatted | yes |
