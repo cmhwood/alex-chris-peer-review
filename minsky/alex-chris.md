@@ -1,6 +1,5 @@
 Hey Alex,
 
-General Feedback. Don't forget to include good things first! 
 Way to go above and beyond on this one. Nice creativity.
 
 ---
