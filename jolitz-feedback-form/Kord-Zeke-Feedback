@@ -1,0 +1,48 @@
+Hey Zeke,
+
+General Feedback.
+
+---
+| Functional Requirements | Complete? |
+| --- | :---: |
+| Multi page form with client side routing and navigation (next button) | yes |
+| Data stored in Redux when navigating from page to page | yes |
+| User is notified when trying to leave a blank score | n/a |
+| Review Component displays scores and comments from current redux state | yes |
+| Submit button sends data to the server via Axios | yes |
+| Confirmation Page displays after data is POSTed to the server | yes |
+| Button on Confirmation Page starts a new survey | yes |
+| Views are broken down into components | yes |
+
+---
+### Notes:
+
+Notes on the above Functional Requirements.
+
+- I noticed you added validation to your comment form, which was meant to be optional per the Project Instructions.
+- I really liked how you used one single feedback page and fed in props to change the looks. Super efficient!
+- Radio buttons were a good move. Gives a default value and removes the need for validation, which is nice.
+- Well done on the back buttons on each component, that's super convenient.
+- The TextField for your comments section seems to be stretching to fit the whole page (the fullWidth parameter is making it stretch to fit the whole page since you haven't specified any CSS properties on its Box container). The look of this page would be more consistent with the others if you added an `sx` property to the Box component you're in.
+In Material UI, `sx` is your inline styling parameter, so if you did something like `<Box sx={{m: 'auto', width: "33%"}}>` it would make the Box centered and only take up the middle 3rd of the page, making it look more consistent with your other pages.
+
+---
+| General Items | Complete? |
+| --- | :---: |
+| More than 15 git commits | no |
+| Commits are descriptive of the changes made or feature added | no |
+| Readme file updated | no |
+| Appropriate amount of code comments | yes |
+| Code is consistently formatted | yes |
+| Server code organized with router & module files | yes |
+| Dispatch action to clear redux state on new survey | yes |
+
+---
+### Notes:
+
+Notes on General Items
+
+- Your Git commit messages are a little vague. You're indicating what you updated, but I think adding a little more detail would be helpful.
+- Your code is well formatted and easy to read, well done! (shout out to option+shift+f)
+- You didn't have anything updated in your README, which is a good habit to get into. 
+- You're definitely better at being in the habit of commenting on your code than I am! 

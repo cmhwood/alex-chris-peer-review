@@ -1,0 +1,45 @@
+Base Required Features
+Multi-Part Form:
+
+ [X]Able to add feedback
+[X] Data collected on individual pages & components
+ [X]Click on next takes you to the next page in sequence
+ [X]Data saves in DB after all the parts are completed (not piecemeal)
+ [X]Thank you page takes you back to the first view
+[X] Old Data is cleared on form completion
+Client code:
+
+ [X]Individual components for each form part
+ [X]Redux setup complete
+ [X]Store linked to react with <Provider>
+ []Store setup with reducer(s) and logger middleware
+ [X]Reducers & Actions Working
+ [X]Actions are in SCREAMING_SNAKE_CASE and semantically named
+ [X]Actions have a type key, and payload if sending data
+ []Reducers are returning a new state, or the old state (not mutating)
+ [X]Reducers are using spread correctly (to keep old data, while adding new)
+[X] Review Component shows at all times with current redux state
+ [X]React-Redux Working
+ [X]connecting components correctly & dispatching Actions onClick
+[] mapStateToProps when data is needed from Redux for submission
+ [X]Axios POST request to add feedback
+Server code:
+
+ [X]Router made for GET, POST
+General Items
+Feedback should be provided for these items, but they do not impact scoring.
+
+Git
+ [X]Multiple git commits showing incremental progress
+ [X]Commits are descriptive of the changes made or feature added
+ [X]Has .gitignore with node_modules
+[X] Readme file updated (assuming this is previously discussed)
+Code Style
+ []Appropriate amount of code comments
+ [X]Code is consistently formatted
+Client
+[X] Appropriate use of HTML tags
+ [X]Basic CSS styling with margins/padding
+
+ ## Grading.
+ good job Kathryn! everything looks really good! just a couple things. your missing logger in your store and more comments would be helpful, besides that everything else is great! good job!
